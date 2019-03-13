@@ -1,0 +1,29 @@
+1)Download Java and set JAVA_HOME in environmental variables
+2)Download Android Studio 
+3)Check Android Installation path in machine
+4)Set Android_home(path of SDK from users/appdata/local) and within PATH variables(add path of bin,tools) Environemntal variables path in SDK location
+5)Open Android Studio and configure Virtual Device/Emulator
+6)Open Emulator and check if it is working
+7)Download Node.JS
+8)Set node_home Environmental variable path(Node is a software,set its folder path)
+9)set npm Environmental variable path
+(set npm bin bath in PATH variable;npm is a CLI, it contains number of node modules like angularJS, protractor, appium)
+10)Download Appium Server from node - comes as a node modules
+   Command -> npm install -g appium
+              npm install -g appium@beta --no-shrinkwrap
+   Start Appium using command -> appium
+   Uninstall -> npm uninstall -g appium
+11)Download Appium Java Client libary and Selenium Java
+12)Intsall and configure Appium libs in eclipse
+13)Start Appium Server
+
+Run emulator from CMD by going to platform-tools with command ->
+emulator -avd Nexus
+
+Tutorial link -->
+https://learning.oreilly.com/videos/appium-selenium-mobile-automation-testing/9781789136128/9781789136128-video2_4
+
+Node is a software,set its folder path.
+NPM is a CLI, it contains number of node modules like angularJS, protractor, appium.
+Appium Client - Helps to write our program in multiple languages LIKE Appium Java client JARs
+Appium Server - listens to Appium Client's code and executes in AVD

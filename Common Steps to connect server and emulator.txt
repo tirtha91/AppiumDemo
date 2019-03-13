@@ -1,0 +1,12 @@
+rahulonlinetutor@gmail.com
+1)Desired Capabilities ->
+	Start Appium Server
+ 	a) open emulator - Nexus
+	b)open an App
+	c)Connection to Server
+2)Use UI Automator viewer to identify elements in a mobile native app
+3)Object Locators we will use mostly -> Xpath, Classname, ID, Android UIAutomator
+4)To use any Attribute directly use -> 
+	adriver.findElement(MobileBy.AndroidUIAutomator("attribute(\"value\")"))
+5)To validate any property ->
+	adriver.findElements(MobileBy.AndroidUIAutomator("new UISelector().property(value)"));
